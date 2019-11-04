@@ -14,6 +14,8 @@
 Integrated the first verison of the Rule Based Query Optimizer
 To test run Eva/evaQL/build/testRuleBasedOptimizer.py
 
+Currently, this only completes the Projection Pushdown rule when the following node is a SelectNode since Joins have not been implemented in the current verision of the logical plan tree.
+
 ### Installation
 * Clone the repo
 * Create a virtual environment with conda (explained in detail in the next subsection)
