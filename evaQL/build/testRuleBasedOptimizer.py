@@ -7,7 +7,7 @@ from MyListener import MyListener
 from Nodes.NodeProjection import NodeProjection
 from Nodes.NodeCondition import NodeCondition
 from Nodes.NodeCross import NodeCross
-from rule_query_optimizer import RuleQueryOptimizer, expression_tree2_logical_plan_tree
+from rule_query_optimizer import RuleQueryOptimizer
 
 def main(argv):
     input_stream = FileStream(argv)
@@ -24,7 +24,7 @@ def main(argv):
     lpt = listener.projectionNode
     r = RuleQueryOptimizer()
     plan_tree = r.run(lpt)
-
+    print('done')
 
     '''
     print(ExpressionTree.children[0].children[0].children[0].attribute)
