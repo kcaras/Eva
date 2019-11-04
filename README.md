@@ -9,6 +9,10 @@
 * Eva storage 
 * Dataset 
 
+### Current Updates
+11/3/2019
+Integrated the first verison of the Rule Based Query Optimizer
+To test run Eva/evaQL/build/testRuleBasedOptimizer.py
 
 ### Installation
 * Clone the repo
